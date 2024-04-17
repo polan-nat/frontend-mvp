@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/formulario.css">
+    <link rel="stylesheet" href="styles/tabela.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>PROJETO PUCRIO</title>
+</head>
+
+
+<body>
+    <!-- Formulario -->
+    <section class="Are_For">
+        <h2>Faça o seu cadastro</h2>
+        <div class="Form">
+            <div class="Form_Int">
+                <form id="createData" method="POST">
+                    <div class="Form_Int_Ite">
+                        <input type="text" id="id" name="id" placeholder="Digite o Id">
+                        <label for="Id">ID</label>
+                    </div>
+                    <div class="Form_Int_Ite">
+                        <input type="text" id="nome" name="nome" placeholder="Digite o nome">
+                        <label for="nome">Nome:</label>
+                    </div>
+                    <div class="Form_Int_Ite">
+                        <input type="text" id="sobrenome" name="sobrenome" placeholder="Digite o sobrenome">
+                        <label for="sobrenome">Sobrenome:</label>
+                    </div>
+                    <div class="Form_Int_Ite">
+                        <input type="email" id="email" name="email" placeholder="Digite o endereço de email">
+                        <label for="email">Email:</label>
+                    </div>
+                    <div class="Form_Int_Ite For_But">
+                        <button id="Enviar" type="submit">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            Adicionar
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tabela de exibiçao -->
+    <section class="Are_Tab">
+        <div class="Tab">
+
+            <h2>Tabela de Registros</h2>
+
+            <table id="dataList" border="1">
+                <thead>
+                    <tr>
+                        <th class="Tab_Tit_Id">ID</th>
+                        <th>Nome</th>
+                        <th>Sobrenome</th>
+                        <th>Email</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <!-- Os dados serão preenchidos dinamicamente aqui -->
+                </tbody>
+            </table>
+        </div>
+    </section>
+</body>
+
+
+<script src="script.js" defer></script>
+
+</html>

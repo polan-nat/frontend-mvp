@@ -1,0 +1,76 @@
+.Tab {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.Tab h2 {
+    color: #89C2D9;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.Tab table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.Tab th,
+.Tab td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    color: White;
+}
+
+.Tab_Tit_Id {
+    width: 40px;
+}
+
+.Tab_Id {
+    text-align: center;
+}
+
+.Tab th {
+    background-color: #233952;
+}
+
+.Tab tbody tr:nth-child(even) {
+    background-color: #233952;
+}
+
+.Tab tbody tr:hover {
+    background-color: #155bb3;
+}
+
+.Are_Tab table thead tr th {
+    background-color: #00868d;
+}
+
+.Are_Tab table tbody tr td:nth-child(1),
+.Are_Tab table tbody tr td:nth-last-child(1) {
+    text-align: center;
+}
+
+.Are_Tab table tbody tr td:nth-last-child(1) {
+    width: 70px;
+}
+
+.Are_Tab table tbody tr td button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.Are_Tab table tbody tr td button i {
+    color: #03e9f4;
+    font-weight: 100;
+    font-size: 20px;
+    transition: linear .3s all;
+}
+
+.Are_Tab table tbody tr td button i:hover {
+    color: #fff;
+    transition: linear .3s all;
+}
